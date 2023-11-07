@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Dimension Grids</Text>
+    <Description>Some description for RAI_M03_RA</Description>
+    <Assembly>RAI_M03_RA.dll</Assembly>
+    <FullClassName>RAI_M03_RA.Command1</FullClassName>
+    <ClientId>10b88e23-bcb7-4922-8622-8eba154a9c9e</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Text>Dimension Rooms</Text>
+    <Description>Some description for RAI_M03_RA</Description>
+    <Assembly>RAI_M03_RA.dll</Assembly>
+    <FullClassName>RAI_M03_RA.Command2</FullClassName>
+    <ClientId>e6d1aceb-2307-4dde-84e3-def87b83b7fc</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>RAI_M03_RA</Name>
+    <Assembly>RAI_M03_RA.dll</Assembly>
+    <FullClassName>RAI_M03_RA.App</FullClassName>
+    <ClientId>7daf5955-8483-4ae1-bed7-ecd3f835ab01</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+</RevitAddIns>
